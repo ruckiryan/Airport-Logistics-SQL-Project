@@ -1,0 +1,6 @@
+SERVICE_ID,SERVICE_LEVEL,SERVICE_NAME,SERVICE_COST,SERVICE_DESCRIPTION,EQUIPMENT_REQUIRED
+30001,Update,Handbag System Update,45000,"Modify Handbag System, Check for any points of issue in the system",Yes
+30002,Installation,Automated People Mover Installment ,545600.8,"Implement  Automated  People Mover, transport travelers across terminals",Yes
+30003,Installation,Handbag System Installment,670800.35,"Implement Handbag System, Scan checked-in bags then deliever to designated carousel",Yes
+30004,Update,Automated People Mover Update ,34500,"Modify Automated People Mover, Check for any points of issue in the system",Yes
+30005,Inspection,Airport System Inspection,5000,Inspect Airport for any issues with Automated People Mover or Handbag System ,No

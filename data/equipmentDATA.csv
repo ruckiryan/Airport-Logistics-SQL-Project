@@ -1,0 +1,7 @@
+EQUIPMENT_ID ,EQUIPMENT_NAME,EQUIPMENT_TYPE,REPLACEMENT_VALUE,INVENTORY
+100,Asphalt pavers,Machine ,28000,2
+101,Compactors,Machine ,32500,3
+102,Graders,Machine ,17700,4
+103,Bulldozers,Machine ,20000,3
+104,Electric Tool Kits,Tool ,2000,20
+105,HardHats,Tool ,45,100
