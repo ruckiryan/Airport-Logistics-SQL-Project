@@ -3,6 +3,22 @@
    Data loading is handled separately in scripts/load_data.sql
 */
 
+
+USE master;
+GO
+
+IF DB_ID('Logplan') IS NOT NULL
+BEGIN
+    ALTER DATABASE Logplan SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE Logplan;
+END;
+GO
+
+CREATE DATABASE Logplan;
+GO
+USE Logplan;
+GO
+
 -- 0) Ensure the database exists, then use it
 USE master;
 IF DB_ID('Logplan') IS NULL
